@@ -1,6 +1,13 @@
 # Social Sport
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/joaovitornso/social-sport/blob/main/LICENSE) 
 
+
+#Equipe:
+
+- Adauto Benevides Couto
+- João Vitor Nascimento de Souza
+- Higo Alves
+
 # Sobre o projeto
 
 O SocialSport é uma aplicação full stack web desenvolvida durante o 3º semestre do curso de Análise e Desenvolvimento de Sistemas, no Instituto Federal de Educação, Ciência e Tecnologia Baiano, Campus Guanambi - BA. 
@@ -15,14 +22,6 @@ O SocialSport é um lugar onde você poderá experimentar diversas experiências
  - Os campeonatos, que precisam de quatro (4) times para iniciar, sendo organizados em seminais e final, onde os vencedores das seminais se enfrentam na final, e o campeão é premiado com medalhas;
  - As ligas, que precisam de oito (8) times para começar, sendo organizado em quartas-de-final, semifinais e final, o time campeão é premiado com um troféu.
   
-
-## Layout web
-![Web 1](https://github.com/joaovitornso/social-sport/blob/main/ativos/home-page.png)
-
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
-
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
 
 # Tecnologias utilizadas
 
@@ -42,47 +41,79 @@ Eclipse IDE for Enterprise Java and Web Developers
 - Back end: Eclipse IDE for Enterprise Java and Web Developers
 - Front end web: JSP
 - Banco de dados: MySQL
+- Ferramenta de design de banco de dados: MySql Workbench
 
 # Como executar o projeto
-
-
 
 ## Back end
 Pré-requisitos: 
  - OpenJDK 11;
+ - MySql   
 
-```bash
-# clonar repositório
-git clone https://github.com/joaovitornso/social-sport
-
-# entrar na pasta do projeto
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
 
 ## Front end web
-Pré-requisitos: npm / yarn
+Pré-requisitos: Linguagem JavaScript
 
-```bash
-# clonar repositório
-git clone https://github.com/joaovitornso/social-sport
 
-# entrar na pasta do projeto front end web
-cd front-web
+# Passos para Execução do Projeto
 
-# instalar dependências
-yarn install
+## Pré requisitos
+- OpenJDK 11;
+- IDE: Eclipse Enterprise Java and Web Developers
+- Apache Tomcat version v10.1
 
-# executar o projeto
-yarn start
+``` bash
+#instalando o openjdk 11
+Vá em https://adoptopenjdk.net/ 
+e baixe a versão OPENJDK 11 (LTS)
+
+#instalando o eclipse
+Vá em https://www.eclipse.org/downloads/
+e baixe o eclipse
+Na instalação escolha a opção Eclipse IDE for Enterprise Java Developers
+Siga os passos e finalize a instalção
+
+
+#instalando o Apache Tomcat
+Vá em https://tomcat.apache.org/
+e baixe a versão Tomcat 10.1.5
+Extraia o arquivo e uma pasta e 
+cole em Disco Local (C:)
 ```
+
+## Passo 1 - Baixar o todo o projeto do GitHub
+
+Baixe os arquivos do projeto e extraia-o dentro de um diretório
+
+## Passo 2 - Abrir projeto no Eclipse Web Programming
+
+Abra o Eclipse e vá  em ```File``` > ```Open Projects from File System...``` e escolha a pasta do projeto
+
+## Passo 3 - Configurar o Tomcat no Eclipse
+
+1. Na aba inferior encontre a guia ```Servers```, clique com o botão direito do mouse vá em ```New``` e clique em ```Server```.
+2. Na janela que abrir vá em ```Apache``` e escolha a versão do Tomcat instalado na sua máquina e clique em ```next```.
+3. Na guia que surgiu selecione o projeto e clique em ```add```, finalize clicando em ```Finish```.
+
+## Passo 4: Executar o projeto
+
+Clique no botão ```Run``` e selecione a configuração do servidor que você acabou de criar. Verifique se o projeto está sendo executado corretamento acessando o endereço https://localhos:8080 no navegador.
+
+## Passo 5: Executar script SQL
+
+Execute o script SQL fornecido eem seu SGBD MySQL para completar a instalação do projeto.
+
+CREATE DATABASE IF NOT EXISTS sportsocial;
+
+Entre em todas as classe DAO que estao em 
+SocialSport/Java Resources/src/main/java/model/ e troque as variáveis user e password para a senha e usuário do seu MySQL
+
+
 
 # Autores
 
-Adauto Benevides Couto,
-João Vitor Nascimento de Souza e
-Higo Alves
+- Adauto Benevides Couto
+- João Vitor Nascimento de Souza
+- Higo Alves
 
 www.linkedin.com/in/joaovitornso
