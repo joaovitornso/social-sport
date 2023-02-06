@@ -117,3 +117,4 @@ SocialSport/Java Resources/src/main/java/model/ e troque as variáveis user e pa
 - Higo Alves
 
 www.linkedin.com/in/joaovitornso
+https://www.linkedin.com/in/adauto-benevides-b61119263/
