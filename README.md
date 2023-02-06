@@ -97,7 +97,7 @@ Abra o Eclipse e vá  em ```File``` > ```Open Projects from File System...``` e 
 
 ## Passo 4: Executar o projeto
 
-Clique no botão ```Run``` e selecione a configuração do servidor que você acabou de criar. Verifique se o projeto está sendo executado corretamento acessando o endereço https://localhos:8080 no navegador.
+Clique no botão ```Run``` e selecione a configuração do servidor que você acabou de criar. Verifique se o projeto está sendo executado corretamento acessando o endereço https://localhost:8080 no navegador.
 
 ## Passo 5: Executar script SQL
 
