@@ -89,6 +89,11 @@ Baixe os arquivos do projeto e extraia-o dentro de um diretório
 
 Abra o Eclipse e vá  em ```File``` > ```Open Projects from File System...``` e escolha a pasta do projeto
 
+``` bash
+OBS.: O nome do administrador
+e a senha é aplicado diretamente no banco de dados
+```
+
 ## Passo 3 - Configurar o Tomcat no Eclipse
 
 1. Na aba inferior encontre a guia ```Servers```, clique com o botão direito do mouse vá em ```New``` e clique em ```Server```.
@@ -108,7 +113,8 @@ CREATE DATABASE IF NOT EXISTS sportsocial;
 Entre em todas as classe DAO que estao em 
 SocialSport/Java Resources/src/main/java/model/ e troque as variáveis user e password para a senha e usuário do seu MySQL
 
-
+# Link de vídeo explicando o sistema no YouTube
+```https://youtu.be/9VOXavmCM9k```
 
 # Autores
 
